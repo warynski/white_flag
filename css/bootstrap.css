@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
 }
+
 article,
 aside,
 details,
@@ -1097,18 +1098,18 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #000;
   text-decoration: underline;
 }
-a:focus {
+/*a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-}
+}*/
 figure {
   margin: 0;
 }
@@ -3987,8 +3988,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eee;
+  text-decoration: underline;
+  /*background-color: #eee;*/
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4273,9 +4274,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   position: absolute;
-  left: 0;
-  top: 0;
- /* float: left;
+  left: 50px;
+  top: 60px;
+/*  float: left;
   height: 50px;
   padding: 15px 15px;
   font-size: 18px;
@@ -4366,8 +4367,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-family: Dutch801;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 65px;
+    padding-bottom: 45px;
   }
 }
 .navbar-form {
