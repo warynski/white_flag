@@ -4362,6 +4362,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: flex;
     justify-content: center;
     margin: 0;
+    background-color: #fdfdf8;
   }
   .navbar-nav > li {
     float: left;
