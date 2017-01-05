@@ -18,7 +18,7 @@
 		<nav class="navbar">
 			<div class="container-fluid">
 				<div class="nav-logo">
-					<a class="navbar-brand wf-logo" href="#"><img src="img/logo.png"></a>
+					<a class="navbar-brand wf-logo" href="#"><img src="http://localhost/wf/wp-content/uploads/2017/01/logo.png"></a>
 				</div>
 				<div>
 				    <?php wp_nav_menu()?>
